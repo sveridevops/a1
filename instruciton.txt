@@ -1,0 +1,75 @@
+dev1 (mornig shift)
+
+mkdir dirname
+cd dirname
+git init
+git config --global user.name "dev1"
+git config --global user.email "dev1@pan.in"
+
+create the project files
+
+git add .
+git commit -m "informative message"
+
+
+git remote add name GitHubRepoUrl
+git push name master
+
+
+
+
+
+
+dev2 (Night shift) 
+
+git clone GitHubRepoURL  #First Time only
+
+OR
+
+#next time
+cd dirname
+git pull GitHubRepoURL
+
+
+add and modify the project files
+
+git add . 
+git commit -m "informative message"
+
+git remote add name GitHUBRepoURL
+git push name master
+
+______________________________________________
+
+Branching
+
+git pull GitHUBRepoURL
+
+git branch branchname
+git checkout branchname
+
+add and modify the project files
+
+git add .
+git commit -m "informative message"
+
+git push name branchname
+
+
+
+__________
+
+
+
+Merging
+
+git checkout master
+git merge branchname
+
+git push name master
+
+____________
+
+
+
+
